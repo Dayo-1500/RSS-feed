@@ -18,7 +18,8 @@ $feedAljazera -> handle_content_type();
 </head>
 
 <body>
-    
+
+<!--Create a section for links at the top of the page-->    
 <div class="links">
 <a class="design2" href="rssPageone.php"> CNN News</a>
 <a class="design" href="rssPagetwo.php"> BBC News</a>
@@ -27,6 +28,7 @@ $feedAljazera -> handle_content_type();
 <br><br>
 <div class="feed">
 
+<!--This div will hold the title of the page-->
 <h1 class="title">
 <a href="<?php echo $feedAljazera ->get_permalink();?>">
 <?php echo $feedAljazera ->get_title();?>
@@ -36,6 +38,7 @@ $feedAljazera -> handle_content_type();
 </div>
 
 
+<!--This div will display news headlines as well as a short description of the story-->
 <div class="feed2">
     <h1 class="title" style="text-align:center; font-weight:bold;">Top Stories</h1>
     
